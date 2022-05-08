@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.container-flex {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    /* padding: 10px 15px; */
+}
+
+.container-flex a:hover {
+    transition: 0.5s;
+    color: black;
+    text-decoration:none; 
+}
+
+header {
+    background-color: rgb(19, 122, 19);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+header .list-itens {
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-itens i {
+    padding-right: 5px;
+}
+.list-itens li a {
+    color: #fff;
+    padding-right: 50px;
+}
+
+.list-itens li a:hover {
+    transition: 0.5s;
+    color: black;
+    text-decoration:none; 
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.conheca {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conheca .conheca-texto1 {
+    min-height: 200px;
+}
+
+.conheca-texto1 h1 {
+    color: rgb(19, 122, 19);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.conheca-texto1 a {
+    background-color: rgb(19, 122, 19);
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color:rgb(19, 122, 19);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: rgb(19, 122, 19);
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quem-somos img {
+    min-width: 420px;
+}
+
+.container-flex-externo {
+    background-color: rgb(19, 122, 19);
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.lista-servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-servicos .item-servico {
+    text-align: center;
+}
+
+.item-servico a {
+    width: 120px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: rgb(19, 122, 19);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.item-servico p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.item-servico img {
+    width: 80%;
+    margin: auto;
+}
+
+#planos {
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2 {
+    font-size: 32px;
+}
+
+.lista-planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-planos {
+    flex: 1;
+    border: 5px solid rgb(19, 122, 19);
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+
+.item-planos .btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-planos h3 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-planos h3::after {
+    content: "";
+    background-color: rgb(19, 122, 19);
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-planos ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-planos ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-planos ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(19, 122, 19);
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: rgb(19, 122, 19);
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(19, 122, 19);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+
+
+/* mobile */
+
+@media(max-width: 992px) {
+    .container-flex {
+        flex-direction: column;
+    }
+
+    .conheca {
+        flex-direction: column-reverse;
+    }
+    .conheca .conheca-texto1 {
+        width: 100%;
+    }
+
+    #quem-somos {
+        flex-direction: column-reverse;
+    }
+    #quem-somos img {
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .lista-servicos {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .item-servico img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .lista-planos {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .lista-planos .item-planos {
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com display-flex</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5686d206ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-flex menu">
+            <div>
+                <h1>PoupaFinanceira</h1>
+            </div>
+            <ul class="list-itens">
+                <i class="fa-solid fa-align-justify"></i>
+                <li><a href="#planos">Planos</a></li>
+                <i class="fa-solid fa-briefcase"></i>
+                <li><a href="#servicos">Serviços</a></li>
+                <i class="fa-solid fa-people-group"></i>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+        </div>
+        </ul>
+
+
+    </header>
+
+    <div class="container-flex conheca">
+        <div class="conheca-texto1">
+            <h1>Poupa <br>Financeira</h1>
+            <p>O melhor serviço financeiro do Brasil!</p><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur recusandae aperiam dolorum reprehenderit optio atque?</p>
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+        <div>
+            <div><img src="/imgs/banner-apresentacao.png" alt="banner de apresentação"></div>
+        </div>
+    </div>
+
+    <div class="container-flex" id="quem-somos">
+        <div>
+            <h2>Quem Somos</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus consequatur nihil neque reprehenderit
+                doloribus in architecto est at adipisci.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, mollitia? Omnis numquam cum natus? Id modi
+                nemo ea omnis architecto?</p>
+        </div>
+
+        <div>
+            <img src="/imgs/img-quem-somos.png" alt="Quem somos">
+        </div>
+    </div><br>
+
+    <div class="container-flex-externo">
+        <div class="container-flex" id="servicos">
+            <div>
+                <h2>Serviços</h2><br>
+            </div>
+            <div class="lista-servicos">
+                <div class="item-servico">
+                    <div><img src="/imgs/img2.png" alt="Consultoria pessoal"></div>
+                    <p>Consultoria pessoal</p>
+                    <a href="#">Agendar consultoria</a>
+                </div>
+
+                <div class="item-servico">
+                    <div><img src="/imgs/img1.png" alt="Aprenda"></div>
+                    <p>Aprenda a controlar seus ganhos e gastos, criar seus orçamentos e sair das dívidas</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+
+                <div class="item-servico">
+                    <div><img src="/imgs/img3.png" alt="Investir"></div>
+                    <p>Pense no futuro, comece a investir com saberia e crie uma reserva de emergência</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-flex" id="planos">
+        <div><h2>Planos</h2></div>
+        <div class="lista-planos">
+            <div class="item-planos">
+                <h3>Plano 1</h3>
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+                <a href="#" class="btn">Contrate</a>
+            </div>
+
+            <div class="item-planos">
+                <h3>Plano 2</h3>
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+                <a href="#" class="btn">Contrate</a>
+            </div>
+
+            <div class="item-planos">
+                <h3>Plano 3</h3>
+                <ul>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum.</li>
+                </ul>
+                <a href="#" class="btn">Contrate</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-flex footer">
+        <p>&copy; 2022 CSS Flexbox</p>
+        <p>Desenvolvido por: João Barboza</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
